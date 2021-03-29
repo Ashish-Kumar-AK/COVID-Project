@@ -83,7 +83,7 @@ def delete_casedetails(updated):
     if len(details):
         deletedRows=cur.execute("""DELETE from project.covid WHERE updated_on='{}'""".format(updated))
         conn.commit()
-        return jsonify({'ID':id, 'Message':'Deleted'}), 200
+        return jsonify({'data updated on':updated, 'Message':'Deleted'}), 200
     return jsonify({"message":"The timestamp doesn't exist"}), 404
 
 #Serve the Restful service over https using self signed certificate
