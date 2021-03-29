@@ -9,11 +9,11 @@ Main functions included in this project are-
 
 2. [/casedetails] display the no. of rows and all the data present inside the table.
 
-3. [/casedetails/[updated]] display ony the row whose updated date is <updated>.
+3. [/casedetails/[updated]] display ony the row whose updated date is [updated].
 
-4. [/casedetails/update/[country]/[confirmed]/[recovered]/[deaths]/[updated]] update the row with the provided new parameters whose updated date is <updated>.
+4. [/casedetails/update/[country]/[confirmed]/[recovered]/[deaths]/[updated]] update the row with the provided new parameters whose updated date is [updated].
 
-5. [/casedetails/delete/[updated]] delete the respective row whose updated date is <updated>
+5. [/casedetails/delete/[updated]] delete the respective row whose updated date is [updated].
 
 
 The API is served on https using self signed digital certificate.
